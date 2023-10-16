@@ -11,11 +11,11 @@ const Dashboard = ()=>{
         
       ];
     return (
-        <div className="flex space-between items-center w-full">
-        <div className="w-1/2 h-1/2 m-5 shadow-xl border-0 "> 
+        <div className="flex flex-col lg:flex-row space-between items-center w-full">
+        <div className="w-full lg:w-1/2 m-5 shadow-xl border-0 "> 
           <DataTable data={tablesData}/>
         </div>
-        <div className="w-1/2 h-1/2 m-5 shadow-xl border-1 p-1">
+        <div className="w-full lg:w-1/2 m-5 shadow-xl border-0">
             <AdsInsights/>
         </div>
         </div>
